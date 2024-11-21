@@ -1,4 +1,4 @@
-use csv::{Writer, WriterBuilder};
+use csv::WriterBuilder;
 use serde_derive::{Deserialize, Serialize};
 use std::{
     env::{self},
